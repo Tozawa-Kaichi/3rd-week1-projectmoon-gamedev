@@ -856,6 +856,7 @@ GameObject:
   - component: {fileID: 1584930355}
   - component: {fileID: 1584930356}
   - component: {fileID: 1584930357}
+  - component: {fileID: 1584930358}
   m_Layer: 0
   m_Name: Legacy
   m_TagString: Player
@@ -962,7 +963,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584930350}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78ce5b8b11e1b7743a94d1ddc0bed331, type: 3}
   m_Name: 
@@ -976,9 +977,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584930350}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f202050621a53f748b07cf2c5836f0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveSpeed: 3
+--- !u!114 &1584930358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584930350}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f5ef810e88bd5247becbad408aea4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 3
