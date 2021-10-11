@@ -29,6 +29,7 @@ public class CharacterMoveModern : MonoBehaviour
         dir.y = 0;
         // 移動の入力がない時は回転させない。入力がある時はその方向にキャラクターを向ける。
         if (dir != Vector3.zero) this.transform.forward = dir;
+        //float velocityY =
         _rb.velocity = dir.normalized * _moveSpeed;
     }
 }
