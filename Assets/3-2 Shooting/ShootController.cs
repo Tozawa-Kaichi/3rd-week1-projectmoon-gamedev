@@ -29,12 +29,7 @@ public class ShootController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            var go = Instantiate(_bulletPrefab);
-            go.transform.position = _muzzle.position;
-            go.transform.forward = _muzzle.forward;
-        }
+        
 
         // カメラから照準に向かって Ray を飛ばし、何かに当たっているか調べる
         Ray ray = Camera.main.ScreenPointToRay(_crosshair.rectTransform.position);
